@@ -1,0 +1,9 @@
+<%- include("partials/head.ejs") %> 
+<body>
+		<h1>Les articles</h1>
+        <% articles.forEach(article => { %>
+            <%- include ('partials/article', {article}) %>
+         <% }) %>
+		
+         <%- include('partials/foot') %>
+

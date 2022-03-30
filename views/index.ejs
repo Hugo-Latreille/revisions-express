@@ -1,0 +1,9 @@
+<%- include("partials/head.ejs") %> 
+<body>
+		<h1>Htlm fonctionne</h1>
+		<h2><%= message %></h2>
+		<% users.forEach(user => { %>
+		 <p><%= user.name %> est un con </p>
+		<% }) %>
+		
+		<%- include('partials/foot') %>
