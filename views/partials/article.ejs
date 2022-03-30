@@ -4,6 +4,8 @@
         <%= article.title %>
     </h2>
     <p>
-        <%= article.contenu %>
+        <%= article.contenu.slice(0,10) %> ...
     </p>
+    <p>Tags : <%= article.slug %> </p>
+    <p>Id: <%= article.id %> </p>
 </article>

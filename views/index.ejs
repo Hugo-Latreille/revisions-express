@@ -3,7 +3,8 @@
 		<h1>Htlm fonctionne</h1>
 		<h2><%= message %></h2>
 		<% users.forEach(user => { %>
-		 <p><%= user.name %> est un con </p>
+		 <p><%= user.name %> est un con, <%= title %> <%= page %>  </p>
+
 		<% }) %>
 		
 		<%- include('partials/foot') %>
